@@ -1,14 +1,14 @@
 print("Welcome to Treasure Island.\nYour mission is to find the treasure.\n\n")
 
-a = input("left or right? ")
+a = input("left or right? ").lower()
 if (a == "right"):
     print("Fall into a hole.\nGAME OVER.")
 elif (a == "left"):
-    b = input("swim or wait?: ")
+    b = input("swim or wait?: ").lower()
     if (b == "swim"):
         print("Attacked by trout\nGAME OVER.")
     elif (b == "wait"):
-        c = input("Which door? red/blue/yellow: ")
+        c = input("Which door? red/blue/yellow: ").lower()
         if (c == "red"):
             print("Burned by fire.\nGAME OVER.")
         elif(c == "blue"):
