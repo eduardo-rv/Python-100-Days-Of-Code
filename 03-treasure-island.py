@@ -1,3 +1,7 @@
+# Day 3: Treasure Island
+# This program is a text-based adventure game.
+# It uses conditional statements (if/elif/else) to guide the user through different choices to find the treasure.
+
 print("Welcome to Treasure Island.\nYour mission is to find the treasure.\n\n")
 
 a = input("left or right? ").lower()

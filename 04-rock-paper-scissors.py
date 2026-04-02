@@ -1,3 +1,7 @@
+# Day 4: Rock, Paper, Scissors
+# This program plays the classic game against the computer.
+# It uses the random module to choose the computer's move and lists to store the available choices.
+
 import random
 
 lst = ["Rock", "Paper", "Scissors"]
