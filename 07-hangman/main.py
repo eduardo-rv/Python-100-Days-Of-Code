@@ -1,116 +1,41 @@
 import random
-word_list = ["aardvark", "baboon", "camel"]
-stages = ['''
-  +---+
-  |   |
-  O   |
- /|l  |
- / |  |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|l  |
- /    |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|l  |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|   |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
-  |   |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
-      |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-      |
-      |
-      |
-      |
-=========
-''']
+import words
+import art
 
+print(art.logo)
+
+chosen_word = random.choice(words.word_list)
+word_length = len(chosen_word)
+end_of_game = False
 lives = 6
 
-chose_word = random.choice(word_list)
-print(chose_word)
+display = []
+for _ in range(word_length):
+    display.append("_")
 
-
-placeholder = ""
-for position in range(len(chose_word)):
-    placeholder += "_"
-print(placeholder)
-
-
-game_over = False
-correct_letters = []
-
-while not game_over:
+while not end_of_game:
     guess = input("Guess a letter: ").lower()
 
+    if guess in display:
+        print(f"You already guessed the letter {guess}.")
 
-    display = ""
-    for l in chose_word:
-        if l == guess:
-            display += l
-            correct_letters.append(guess)
-        elif l in correct_letters:
-            display += l
-        else:
-            display += "_"
+    for position in range(word_length):
+        letter = chosen_word[position]
+        if letter == guess:
+            display[position] = letter
 
-    print(display)
-
-    if guess not in chose_word:
+    if guess not in chosen_word:
+        print(f"The letter {guess} is not in the word. You lose a life.")
         lives -= 1
         if lives == 0:
-            game_over = True
-            print("Yuo Lose.")
+            end_of_game = True
+            print("You lose.")
+            print(f"The word was: {chosen_word}")
+
+    print(f"{' '.join(display)}")
 
     if "_" not in display:
-        game_over = True
-        print("You Win.")
+        end_of_game = True
+        print("You win.")
 
-    print(stages[lives])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    print(art.stages[lives])
