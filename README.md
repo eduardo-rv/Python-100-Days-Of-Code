@@ -1,11 +1,17 @@
 # 🐍 100 Days of Code: Python Bootcamp
 
-This repository documents my daily progress and technical evolution mastering Python. As an aspiring Data Engineer, I am taking this structured challenge to build a strong foundation in scripting, automation, and backend logic, which are essential skills for handling modern data pipelines.
+A daily Python programming journey focusing on logic, backend architecture, and data automation. Focusing my learning path on data systems and software engineering, this repository documents my progress from basic scripting to advanced Python applications.
 
-## 🎯 Objective
+## 🛠️ Tech Stack
+* **Language:** Python 3.x
+* **Editor:** Vim 
+* **Environment:** Linux (Ubuntu) Terminal
 
-To write code every day for 100 days, progressing from fundamental syntax to advanced topics such as Object-Oriented Programming (OOP), API integration, data manipulation, and backend web development. This repository serves as a portfolio of incremental projects, demonstrating my ability to solve problems and build functional applications from scratch.
+## 🚀 How to Run
 
-## 🎓 Acknowledgements
+To test any of the daily projects locally, clone the repository, navigate to the specific day's folder, and run the script:
 
-The structure and core project concepts in this repository follow the curriculum from the *"100 Days of Code: The Complete Python Pro Bootcamp"* created by Dr. Angela Yu. The code implementation, logic, and modifications uploaded here are my own work, written as part of my learning process.
+```bash
+git clone https://github.com/eduardo-rv/Python-100-Days-Of-Code.git
+cd Python-100-Days-Of-Code/day_folder_name
+python3 main.py
