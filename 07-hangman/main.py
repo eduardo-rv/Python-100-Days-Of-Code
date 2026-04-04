@@ -1,3 +1,8 @@
+# Day 7: Hangman Game
+# This program recreates the classic Hangman word guessing game.
+# It uses lists, strings, and while loops to check user guesses.
+# The project is modular and imports the word list and ASCII art from separate files.
+
 import random
 import words
 import art
