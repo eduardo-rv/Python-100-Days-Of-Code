@@ -13,5 +13,5 @@ To test any of the daily projects locally, clone the repository, navigate to the
 
 ```bash
 git clone https://github.com/eduardo-rv/Python-100-Days-Of-Code.git
-cd Python-100-Days-Of-Code/day_folder_name
+cd Python-100-Days-Of-Code/DAY_FOLDER_NAME
 python3 main.py
