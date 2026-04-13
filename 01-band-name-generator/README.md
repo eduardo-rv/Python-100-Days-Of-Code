@@ -1,7 +1,7 @@
 # 🎸 Day 1: Band Name Generator
 
 ## 📝 Assignment
-Create a program that generates a creative band name. The script interacts with the user to gather two pieces of information and combines them into a single, catchy result.
+> Create a program that generates a creative band name. The script interacts with the user to gather two pieces of information and combines them into a single, catchy result.
 
 ## 🛠️ Requirements
 > The program must welcome the user to the generator.  
@@ -18,8 +18,8 @@ Create a program that generates a creative band name. The script interacts with 
 > Using the new line character `\n` to manage text layout.  
 
 ## 💻 How to Run
-1. Open your terminal (WSL).
-2. Navigate to the Day 1 folder.
-3. Run the script:
+> 1.Open your terminal (WSL).
+> 2.Navigate to the Day 1 folder.
+> 3.Run the script:
    ```bash
    python3 main.py
