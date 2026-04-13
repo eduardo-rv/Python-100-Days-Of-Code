@@ -1,21 +1,25 @@
 # 🎸 Day 1: Band Name Generator
 
-## 📝 Description
-This is a simple Python script that generates a creative band name by combining the name of the city the user grew up in and the name of a pet. It is a foundational project to practice basic input and output operations.
+## 📝 Assignment
+Create a program that generates a creative band name. The script interacts with the user to gather two pieces of information and combines them into a single, catchy result.
 
-## ✨ Features
-- **Interactive Input:** Prompts the user for specific information.
-- **String Concatenation:** Combines multiple strings into a single output.
-- **Variable Management:** Stores user data efficiently.
+## 🛠️ Requirements
+- **Greeting:** The program must welcome the user to the generator.
+- **Data Collection:** Ask the user for the name of the city they grew up in.
+- **Data Collection:** Ask the user for the name of a pet.
+- **String Manipulation:** Use string concatenation to merge the city and pet name.
+- **Formatting:** Ensure the generated band name is displayed clearly on its own line.
 
-## 🧠 What I Learned Today
-- Using the `print()` and `input()` functions.
-- Mastering **String Concatenation**.
-- Basic variable assignment and naming conventions in Python.
+## 🧠 Key Learnings
+- Using `print()` to output text to the console.
+- Using `input()` to receive and store user data.
+- Working with **Variables** to hold information.
+- Understanding **String Concatenation** (joining strings with the `+` operator).
+- Using the new line character `\n` to manage text layout.
 
-## 🚀 How to Run
+## 💻 How to Run
 1. Open your terminal (WSL).
 2. Navigate to the Day 1 folder.
 3. Run the script:
    ```bash
-   python3 main.py 
+   python3 main.py
