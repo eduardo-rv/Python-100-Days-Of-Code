@@ -18,8 +18,8 @@
 > Using the new line character `\n` to manage text layout.  
 
 ## How to Run
-> 1.Open your terminal (WSL).
-> 2.Navigate to the Day 1 folder.
+> 1.Open your terminal (WSL).  
+> 2.Navigate to the Day 1 folder.  
 > 3.Run the script:
    ```bash
    python3 main.py
