@@ -1,21 +1,21 @@
-# Day 3: Treasure Island
+# Day 2: Tip Calculator
 
 ## Assignment
-> Create a Choose Your Own Adventure game. The program leads the user through a series of logical decisions where each choice determines if they continue their quest or face an early Game Over.
+> Build a calculator that determines how much each person should pay when a bill is split, including a percentage-based tip.
 
 ## Requirements
-> The program must use nested conditional statements to create different story branches.
-> All user inputs should be converted to lowercase to ensure the game is not case-sensitive.
-> The logic must include multiple paths including a winning condition and several losing scenarios.
-> Include a welcome message with ASCII art to set the theme of the game.
+> The program must handle the total bill as a floating point number for precision.
+> Ask the user for the tip percentage specifically choosing between 10, 12, or 15 percent.
+> Collect the number of people who will be splitting the final bill.
+> Format the final result to show exactly two decimal places regardless of the number.
 
 ## Key Learnings
-> Using nested `if`, `elif`, and `else` statements for complex logic.
-> Comparison operators like `==`, `!=`, `>`, and `<`.
-> Logical operators `and`, `or`, and `not` to combine conditions.
-> Using the `.lower()` method to normalize user string inputs.
+> Type conversion between strings, integers, and floats.
+> Using f-strings to embed variables directly into strings.
+> Basic mathematical operators and the order of operations.
+> Formatting numerical output using the round function and format methods.
 
 ## How to Run
 > 1. Open your terminal (WSL).
-> 2. Navigate to the Day 3 folder.
-> 3. Run the script: `python3 main.py`
+> 2. Navigate to the Day 2 folder.
+> 3. Run the script: python3 main.py
